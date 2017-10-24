@@ -6,10 +6,10 @@ dmpipe-spec-table --config  <config> --outfile <outfile>
 
   inputs:
     {config} = config_baseline.yaml
-
+               Note: a standard fermipy configuration .yaml file
   outputs:
     {outfile} = dm_spec.fits
-
+                Note: name with .fits must be given
 
 
 dmpipe-prepare-targets --roster <roster> --baseconfig <baseconfig> --topdir <topdir>
