@@ -6,7 +6,7 @@ dmpipe-spec-table --config  <config> --outfile <outfile>
 
   inputs:
     {config} = config_baseline.yaml
-
+			         NOTE, this is a baisc fermipy configuration yaml file, see the EX.yaml file
   outputs:
     {outfile} = dm_spec.fits
 
